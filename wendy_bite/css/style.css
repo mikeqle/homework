@@ -30,3 +30,25 @@ nav {
 	text-align: center;
 	font-weight: bold;
 }
+
+p {
+	font-family: serif;
+}
+
+hr {
+	border-color: #C0C1C0;
+}
+
+.employer {
+	font-weight:normal;
+}
+
+.wtime {
+	font-weight: normal;
+	font-size: 12px;
+	color: #C0C1C0;
+}
+
+.jd {
+	color: #C0C1C0;
+}
