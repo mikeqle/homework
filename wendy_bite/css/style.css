@@ -52,3 +52,8 @@ hr {
 .jd {
 	color: #C0C1C0;
 }
+
+img	{
+	float: right;
+	margin: 10px;
+}
