@@ -51,6 +51,10 @@ nav {
   text-align: center;
 }
 
+hr {
+  border-color: black;
+}
+
 .position {
   font-weight: lighter;
   font-style: italic;
