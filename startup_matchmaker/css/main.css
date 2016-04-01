@@ -216,3 +216,73 @@ nav a {
 .button {
   box-shadow: 0px 2px 5px black;
 }
+
+/* ------ Designer and Developer specific ----------*/
+.bodybackground {
+  background-color: #D4E1DB;
+}
+
+#selected {
+  background-color: #666666;
+}
+
+.column {
+  width: 22.5%;
+  background-color: white;
+  margin: 2% 0 0% 2%;
+  padding: 5px;
+  height: auto;
+  float: left;
+}
+
+.column4 {
+  margin: 2% 2% 0% 2%;
+}
+
+.box280 {
+  width: 97%;
+  height: 0;
+  margin: 1.5%;
+  padding-bottom: 97%;  
+  background-color: #CCCCCC;
+}
+
+.box280 p {
+  margin: 0;
+  padding: 42% 0% 0% 35%;
+  color: #8D8D8D;
+  font-size: 1.5em;
+}
+
+.column h4 {
+  margin: 0;
+  padding:0;
+  padding-left: 1.5%;
+}
+
+.column span {
+  margin-left:1.5%;
+  padding: 1px 10px;
+  background-color: #666666;
+  color: white;
+  font-size: 0.7em;
+  border-radius: 15px;
+}
+
+.redButton {
+  display: block;
+  margin: 7px 1.5% 1.5% 1.5%;
+  padding: 7px 0 7px 0;
+  color: white;
+  font-family: 'Oswald';
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  background-color: #FF0121;
+  border-radius: 5px;
+}
+
+.lastRow {
+  margin-top: 2%;
+}
