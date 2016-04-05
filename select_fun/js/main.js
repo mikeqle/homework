@@ -2,6 +2,7 @@
 *
 * Part 1:
 *
+*
 */
 
 // 1. Go to style.css and add a class called fun. Style that class with your choice of background-color and text color.
