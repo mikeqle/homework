@@ -1,0 +1,22 @@
+/*- Initialize the game:
+    Assign value to player credit
+    Create a deck
+----------------------------------*/
+
+/*- Define that a card includes a suit (aces, diamonds, clubs, spades, etc.) and a rank (A, 2, 3, etc.)
+*/
+
+/*- A hand or a deck is an array of cards, we define these as Stacks
+    Create stack functions:
+    - Make a new deck: fill the deck with x number of cards
+    - Deal: remove the top card of the Stack
+    - Shuffle card: 
+    - Count remaining cards
+    - Add a card to the end of the stack
+*/
+
+/*- Make a new deck
+    - Fill the Stack (array of cards) with all 52 cards in a deck * x number of decks used in a game of blackjack (normally 4 to 8 decks)
+    - Define a 
+
+*/

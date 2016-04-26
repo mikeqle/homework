@@ -38,8 +38,12 @@
 
 /* Global
    ================================================================ */
-body {
   /* Set some defaults! font-family, font-size, color, etc. */
+html {
+  font-size: 16px;
+}
+
+body {
   font-family:'Source Sans Pro', sans-serif;
   font-weight: 400;
   padding: 0;
@@ -85,7 +89,7 @@ header h1 a {
 footer {
   background-color: #3C3A3A;
   color: white;
-  font-size: 20px;
+  font-size: 1.25em;
   padding: 1px 39px; 
 }
 
@@ -99,7 +103,7 @@ nav {
 nav li {
   display: inline-block;
   padding: 1px 20px 0 0;
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 nav a {
