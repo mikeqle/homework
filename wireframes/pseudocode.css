@@ -17,6 +17,63 @@
 
 /*- Make a new deck
     - Fill the Stack (array of cards) with all 52 cards in a deck * x number of decks used in a game of blackjack (normally 4 to 8 decks)
-    - Define a 
-
 */
+
+/*- Deal
+    - Remove the top card from the stack
+*/
+
+/*- Shuffle
+    - Use a random function to move the order of the cards in a stack
+*/
+
+/*- Count
+    - use len to count the length of the array (number of cards)
+*/
+
+/*- Add card
+    - Add a card (most likely from another stack) to this stack (array)
+*/
+
+/*- Game functions:
+    - Score:
+      + Evaluate value of the hand
+      + Determine if the hand is soft or hard
+      + Determine if bust
+      + Determine if blackjack
+    - Hit:
+      + Remove card from Deck
+      + Add that same card to Hand
+      + Score
+        * If busted: lose
+        * If 21: automatically stop the hand, game stop
+    - Double:
+      + Similar to hit, except stop game (all options disabled)
+      + Double the bet amount
+    - Stand:
+      + Stop game
+    - Split:
+      + If player's hand has two of the same card, enable this function.
+      + Split hand into two separate hands and deal a minimum of one extra card per hand. Game continues as if normal
+      + Bet is doubled
+      + Can split up to 3 times (4 total hands)
+    - Surrender
+      + Give up the game at the beginning of the game. Lose half of the origninal bet and get back the other half. Game ends
+    - Insurance
+      + Available when dealer up card is Ace.
+      + Cost half of original bet. Pays 2:1 if dealer has blackjack
+      + Alert user and ask for a decision. After decision, dealer check if his hand is blackjack. If yes, game ends, otherwise continues as normal 
+*/
+
+/*- Game advice
+    - Teach player by keeping a record of how things should be done at each step
+      + Score
+      + Recognize the dealer up card
+      + Check against the recommended table
+      + Repeat at every step the user play
+*/
+
+
+
+
+
